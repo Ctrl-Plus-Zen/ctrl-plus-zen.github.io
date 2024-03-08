@@ -1,19 +1,21 @@
-<div class="call">
-  <div class="call-box-top">
-    {% if site.data.contact.phone %}
-        <div class="call-phone"><strong>Phone: </strong> {{ site.data.contact.phone }} </div>
-    {% endif %}
-    {% if site.data.contact.email %}
-    <div class="call-email"><strong>Email us: </strong>
-      <a href="mailto:{{ .site.data.contact.email }}">
-        {{ site.data.contact.email }}
-      </a>
-    </div>
-    {% endif %}
-  </div>
+<div >
     {% if include.show_button %}
-      <div class="call-box-bottom">
-        <a href="{{ site.data.contact.contact_button_link }}" class="button">Contact</a>
+      <div class="call-box-top">
+        <!-- Calendly link widget begin -->
+        <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+        <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+        <a class="button button-primary" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ctrl-plus-zen/intro-call'});return false;">Book An Intro Call</a>
+        <!-- Calendly link widget end -->
       </div>
     {% endif %}
+    <div class="call-box-top pt-2">
+      {% if site.data.contact.email %}
+      <div class="call-email"><strong>OR email us: </strong>
+        <a href="mailto:{{ .site.data.contact.email }}">
+          {{ site.data.contact.email }}
+        </a>
+      </div>
+      {% endif %}
+    </div>
 </div>
+

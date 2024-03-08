@@ -1,27 +1,27 @@
 [
   {
-    "title": "Free Consultation",
-    "description": "New clients receive an obligation free consultation.",
+    "title": "On-site Classes",
+    "description": "Bring the zen to your office with customized classes tailored to your team's needs.",
     "image": {
-      "url": "images/features/noun_branding_1885335.svg",
+      "url": "images/features/onsite.svg",
+      "width": 280,
+      "height": 280
+    }
+  },
+  {
+    "title": "Live Virtual Classes",
+    "description": "Access a diverse library of pre-recorded and live yoga classes from the comfort of your home or office.",
+    "image": {
+      "url": "images/features/virtual.svg",
       "width": 80,
       "height": 80
     }
   },
   {
-    "title": "Certified Accountants",
-    "description": "All members of our team are certified accountants.",
+    "title": "Workshops",
+    "description": "Deepen your practice with workshops on specific yoga styles, mindfulness techniques, and breathwork.",
     "image": {
-      "url": "images/features/noun_The Process_1885341.svg",
-      "width": 80,
-      "height": 80
-    }
-  },
-  {
-    "title": "Tax Compliance",
-    "description": "We stay up to date on the latest changes to the tax code.",
-    "image": {
-      "url": "images/features/noun_3d modeling_1885342.svg",
+      "url": "images/features/workshop.svg",
       "width": 80,
       "height": 80
     }
