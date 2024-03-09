@@ -1,6 +1,7 @@
+url: 'https://ctrl-plus-zen.github.io'
 baseurl: '/'
 permalink: pretty
-title: 'Jekyll Serif'
+title: 'Ctrl+Zen'
 
 logo:
   mobile: "images/logo/logo-mobile.svg"
